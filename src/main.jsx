@@ -14,7 +14,8 @@ import About from "./components/About/About.jsx";
 import Employees from "./components/Employees/Employees.jsx";
 import Contact from "./components/ContactUs/ContactUs.jsx";
 import SignIn from "./components/SignIn.jsx";
-import WorkingShift from "./pages/WorkingShift.jsx";
+import WorkingShift from "./pages/WorkingShift"; // Import the Working Shift page
+import LeaveReport from "./pages/LeaveReport"; // Import the Leave Report page
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -24,8 +25,10 @@ const router = createBrowserRouter(
       <Route path="employee" element={<Employees />} />
       <Route path="contact" element={<Contact />} />
       <Route path="signin" element={<SignIn />} />
-      <Route path="working-shift" element={<WorkingShift />} />{" "}
-      {/* Add WorkingShift route */}
+      <Route path="working-shift" element={<WorkingShift />} /> // Add the
+      Working Shift route
+      <Route path="leave-report" element={<LeaveReport />} /> // Add the Leave
+      Report route
     </Route>
   )
 );

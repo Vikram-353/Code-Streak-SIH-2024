@@ -36,11 +36,13 @@ export default function Home() {
           </Link>
         </div>
         <div className="w-full max-w-[calc(40%-5rem)]">
-          <Card
-            username={"Leave Request"}
-            bgColor={"bg-orange-100"}
-            parah={"Submit and track your leave requests with ease."}
-          />
+          <Link to="/leave-report">
+            <Card
+              username={"Leave Request"}
+              bgColor={"bg-orange-100"}
+              parah={"Submit and track your leave requests with ease."}
+            />
+          </Link>
         </div>
       </div>
     </div>
