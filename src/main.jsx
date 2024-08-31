@@ -30,6 +30,7 @@ const router = createBrowserRouter(
       Working Shift route
       <Route path="leave-report" element={<LeaveReport />} />
       Report route
+      <Route path="notice" element={<Notice />} />
     </Route>
   )
 );
