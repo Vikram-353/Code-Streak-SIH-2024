@@ -2,7 +2,7 @@ import React from "react";
 
 function Notice() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
+    <div className="min-h-screen flex items-center justify-center ">
       <div className="max-w-4xl w-full bg-white shadow-md rounded-lg p-6 mx-4 sm:mx-auto">
         <h1 className="text-2xl font-bold mb-6 text-center">
           Shift Handover Record
