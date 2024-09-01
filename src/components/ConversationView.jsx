@@ -1,4 +1,3 @@
-// src/components/ConversationView.js
 import React from "react";
 import PinCard from "./PinCard";
 
@@ -9,7 +8,9 @@ const ConversationView = ({ pins }) => {
         Conversation View
       </h2>
       {pins.length === 0 ? (
-        <p className="text-gray-600 text-center">No pins recorded</p>
+        <p className="text-gray-600 text-center ">
+          No pins recorded
+        </p>
       ) : (
         <div className="space-y-4">
           {pins.map((pin, index) => (

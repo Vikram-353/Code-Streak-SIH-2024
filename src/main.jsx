@@ -18,6 +18,7 @@ import WorkingShift from "./pages/WorkingShift";
 import LeaveReport from "./pages/LeaveReport";
 import Notice from "./pages/Notice.jsx";
 import SignUp from "./components/SignUp.jsx";
+import SafetyManagementPage from "./pages/SafetyManagementPage.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -30,6 +31,7 @@ const router = createBrowserRouter(
       <Route path="working-shift" element={<WorkingShift />} />
       <Route path="leave-report" element={<LeaveReport />} />
       <Route path="notice" element={<Notice />} />
+      <Route path="safety" element={<SafetyManagementPage />} />
       <Route path="signup" element={<SignUp />} />
     </Route>
   )

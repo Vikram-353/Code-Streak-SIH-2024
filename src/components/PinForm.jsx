@@ -1,4 +1,3 @@
-// src/components/PinForm.js
 import React, { useState } from "react";
 
 const PinForm = ({ addPin }) => {
@@ -49,6 +48,8 @@ const PinForm = ({ addPin }) => {
         <option value="Incident">Incident</option>
         <option value="Operation">Operation</option>
         <option value="Task">Task</option>
+        <option value="AllGood">Everything is alright</option>{" "}
+        {/* Added option */}
       </select>
       <input
         type="text"

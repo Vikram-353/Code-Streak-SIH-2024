@@ -2,13 +2,12 @@ import React from "react";
 
 function Notice() {
   return (
-    <div className="min-h-screen flex items-center justify-center ">
+    <div className="min-h-screen flex items-center justify-center">
       <div className="max-w-4xl w-full bg-white shadow-md rounded-lg p-6 mx-4 sm:mx-auto">
-        <h1 className="text-2xl font-bold mb-6 text-center">
+        <h1 className="text-2xl text-white bg-blue-600  mb-6 text-center rounded-lg p-2">
           Shift Handover Record
         </h1>
         <form>
-          {/* Manager Name */}
           <div className="mb-4">
             <label
               className="block text-gray-700 text-sm font-bold mb-2"
@@ -24,7 +23,6 @@ function Notice() {
             />
           </div>
 
-          {/* Shift Date */}
           <div className="mb-4">
             <label
               className="block text-gray-700 text-sm font-bold mb-2"
@@ -39,7 +37,6 @@ function Notice() {
             />
           </div>
 
-          {/* Shift Time */}
           <div className="mb-4">
             <label
               className="block text-gray-700 text-sm font-bold mb-2"
@@ -54,7 +51,6 @@ function Notice() {
             />
           </div>
 
-          {/* Shift Notes */}
           <div className="mb-4">
             <label
               className="block text-gray-700 text-sm font-bold mb-2"
@@ -70,7 +66,6 @@ function Notice() {
             ></textarea>
           </div>
 
-          {/* Submit Button */}
           <div className="flex justify-center">
             <button
               type="submit"
